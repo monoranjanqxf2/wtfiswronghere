@@ -23,4 +23,5 @@ def fizzbuzz(max_num):
 
 #----START OF SCRIPT
 if __name__=='__main__':
-    fizzbuzz()
+    max_num=int(input("Enter a value : "))
+    fizzbuzz(max_num)
